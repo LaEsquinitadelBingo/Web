@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.containerMenu{
+    padding-bottom: 17px;
+}
 .containerMenu, .containerPresu {
     width: 80%;
     max-width: 1200px;
