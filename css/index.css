@@ -4,15 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.containerMenu{
-    margin-bottom: 17px;
-}
+
 .containerMenu, .containerPresu {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.containerMenu{
+    margin-bottom: 17px;
 }
 .container {
     width: 80%;
