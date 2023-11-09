@@ -245,19 +245,20 @@ nav ul li a:hover {
 .unete:hover {
     background-color: #0c3c6a;
 }
-  .details h2 {
+.details h2 {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #0f4c81;
   }
 
-  .details p {
-    ffont-size: 18px;
+.details p {
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 10px;
     color: #0f4c81;
-  }
+    padding-left: 50px;
+}
 footer {
     padding: 20px 0;
     background-color: #0f4c81;
