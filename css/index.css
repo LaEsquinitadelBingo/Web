@@ -29,8 +29,8 @@
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    width: 140%;
+    height: 130%;
     object-fit: contain;
 }
 
@@ -136,7 +136,7 @@ nav ul li a:hover {
 #servicios .servicio img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #servicios .servicio h3 {
@@ -178,7 +178,7 @@ nav ul li a:hover {
 #proyectos .proyecto img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #proyectos .proyecto h3 {

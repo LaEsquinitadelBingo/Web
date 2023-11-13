@@ -7,13 +7,14 @@
     justify-content: center;
 }
 
-#servicios h1 {
+#servicios h1, #proceso_desarrollo h1, #opiniones h1, #trabajos_ejemplos h1{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #0f4c81;
 }
+
 .containerMenu{
     padding-bottom: 17px;
 }
@@ -92,7 +93,7 @@
     background-color: #0c3c6a;
 }
 
-#proceso-desarrollo {
+#proceso_desarrollo {
     margin-left: auto;
     padding: 40px;
     background-color: #fff;
@@ -102,39 +103,39 @@
     align-items: center;
 }
 
-#proceso-desarrollo .fase {
+#proceso_desarrollo .fase {
     margin-bottom: 40px;
     display: flex;
     align-items: center;
 }
 
-#proceso-desarrollo .fase .icono {
+#proceso_desarrollo .fase .icono {
     width: 50px;
     height: 50px;
     margin-right: 20px;
 }
 
-#proceso-desarrollo .fase .icono img {
+#proceso_desarrollo .fase .icono img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#proceso-desarrollo .fase h2 {
+#proceso_desarrollo .fase h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #0f4c81;
 }
 
-#proceso-desarrollo .fase h3 {
+#proceso_desarrollo .fase h3 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #0f4c81;
 }
 
-#proceso-desarrollo .fase p {
+#proceso_desarrollo .fase p {
     font-size: 16px;
     line-height: 1.5;
     color: #0f4c81;
@@ -176,7 +177,7 @@
     color: #333;
 }
 
-#trabajos-ejemplos {
+#trabajos_ejemplos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -186,7 +187,7 @@
     border-radius: 10px;
 }
 
-#trabajos-ejemplos .trabajo {
+#trabajos_ejemplos .trabajo {
     width: 45%;
     margin-bottom: 20px;
     padding: 20px;
@@ -196,21 +197,21 @@
     overflow: hidden;
 }
 
-#trabajos-ejemplos .trabajo:nth-child(odd) {
+#trabajos_ejemplos .trabajo:nth-child(odd) {
     float: right;
 }
 
-#trabajos-ejemplos .trabajo:nth-child(even) {
+#trabajos_ejemplos .trabajo:nth-child(even) {
     float: left;
 }
 
-#trabajos-ejemplos .trabajo img {
+#trabajos_ejemplos .trabajo img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-#trabajos-ejemplos .trabajo p {
+#trabajos_ejemplos .trabajo p {
     font-size: 16px;
     line-height: 1.5;
     color: #0f4c81;
