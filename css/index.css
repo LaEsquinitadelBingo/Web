@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+#mensaje-bienvenida {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 .containerMenu, .containerPresu {
     width: 80%;
@@ -19,7 +23,8 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-   
+    font-family: Verdana;
+    font-family: 'PT Sans';
 }
 
 .logo {
@@ -39,6 +44,8 @@ nav {
     align-items: center;
     justify-content: flex-end;
     width: 50%;
+    font-family: Verdana;
+    font-family: 'PT Sans';
 }
 
 nav ul {
@@ -270,3 +277,51 @@ footer {
 }
 
 
+
+@media (max-width: 1250px){ 
+
+    #servicios .servicios{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    #servicios .servicios .servicio{
+        width: 45%;
+    }
+
+
+
+    #proyectos .proyectos{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    #proyectos .proyectos .proyecto{
+        width: 45%;
+    }
+    #encuentranos .columna:nth-of-type(3) {
+        display: none;
+    }
+    #encuentranos .columna:nth-of-type(2) {
+        display: none;
+    }
+        
+}
+
+@media (max-width: 700px){ 
+
+    #servicios .servicios .servicio{
+        width: 90%;
+    }
+
+    #proyectos .proyectos .proyecto{
+        width: 90%;
+    }
+         
+        
+}
+.active a{
+    background-color: #3eb1be !important;
+}

@@ -327,3 +327,21 @@ footer ul li a img {
     44.44% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+@media (max-width: 1400px){ 
+    .carousel{
+        display: none;
+    }
+    .text{
+        width: 80%;
+    }
+
+    .intro *{
+        width: 80%;
+        margin: 0 auto;
+    }
+        
+}
+.active a{
+    background-color: #3eb1be !important;
+}

@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Almingo</title>
+    
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/animaciones.css">
 </head>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var mensajeElemento = $("#mensaje-bienvenida");
+        var mensaje = 'Welcome to Almingo S.L.';
+
+        function mostrarMensajeAnimado() {
+            mensajeElemento.hide().html("").fadeIn(1000);
+
+            $.each(mensaje.split(''), function (i, letter) {
+                setTimeout(function () {
+                    mensajeElemento.append(letter);
+                }, i * 50);
+            });
+        }
+
+        mostrarMensajeAnimado();
+    });
+</script>
 <body>
     <header>
         <div class="containerMenu">
@@ -15,7 +35,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="career.html">Career</a></li>
                     <li><a href="registro.html">Contact us</a></li>
@@ -27,7 +47,7 @@
     <section id="inicio">
         <div class="containerPresu">
             <div class="texto">
-                <h1>Almingo S.L.</h1>
+                <h1 id="mensaje-bienvenida">Almingo S.L.</h1>
                 <p>We are a company specialized in the development of cross-platform applications for various operating systems and devices. We provide customized solutions tailored to the needs and goals of each client.</p>
                 <a href="registro.html" class="boton">Request your budget</a>
             </div>

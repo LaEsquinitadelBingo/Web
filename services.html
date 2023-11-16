@@ -17,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="services.html">Services</a></li>
                     <li><a href="career.html">Career</a></li>
                     <li><a href="registro.html">Contact us</a></li>
                 </ul>
@@ -113,8 +113,17 @@
         </div>
     </section>
     <section id="opiniones">
-        <div class="container">
+        <section>
             <h1>Customer Reviews</h1>
+            <input type="radio" name="slider-select-element" id="element1" checked="checked" />
+            <input type="radio" name="slider-select-element" id="element2" />
+            <input type="radio" name="slider-select-element" id="element3" />
+            
+            <div id="slider-container">
+                <div id="slider-box">
+                    <div class="slider-element">
+                        <article class="element-red">
+                           
             <div class="opinion-slider">
                 <div class="opinion">
                     <p>"I am very satisfied with the software developed by Almingo S.L. It met all my expectations, and the team was very professional throughout the process."</p>
@@ -125,7 +134,48 @@
                     <p class="cliente">- Olivia Taylor</p>
                 </div>
             </div>
-        </div>
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-green">
+   
+            <div class="opinion-slider">
+                <div class="opinion">
+                    <p>"Amazing experience with this app development company. They always deliver innovative and quality products. Highly recommended!"</p>
+                    <p class="cliente">- Sarah Johnson</p>
+                </div>
+                <div class="opinion">
+                    <p>"Highly professional and creative team. We've trusted them for our apps, and they haven't disappointed. A smart choice."</p>
+                    <p class="cliente">- David Smith</p>
+                </div>
+            </div>
+                        </article>
+                    </div>
+                    <div class="slider-element">
+                        <article class="element-blue">
+                 
+            <div class="opinion-slider">
+                <div class="opinion">
+                    <p>"Customer service is exceptional. They're always willing to listen to our ideas and turn them into amazing apps. Thanks!"</p>
+                    <p class="cliente">- Emily Smith</p>
+                </div>
+                <div class="opinion">
+                    <p>"We couldn't have chosen a better company for our app development project. Efficient, friendly, and experts at their craft. 5 stars."</p>
+                    <p class="cliente">- Emilio Delgado</p>
+                </div>
+            </div>
+                        </article>                            
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slider-arrows">
+                <label for="element1"></label>
+                <label for="element2"></label>
+                <label for="element3"></label>
+            </div>
+        </section>         
+
     </section>
     <section id="trabajos_ejemplos">
         <div class="container">
